@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/background-galaxy.jpg');
+    font-family: 'Roboto';
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.background-calculate{
+    width: 400px;
+    max-width: 95%;
+    height: 75vh;
+    background-color: rgb(20, 198, 109);
+    border-radius: 15px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.result-calculate{
+    width: 95%;
+    height: 80px;
+    background-color: rgb(4, 4, 4);
+    border-radius: 15px 0px;
+    margin: 20px auto;
+    color: white;
+    text-align: right;
+}
+
+.result-calculate span{
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    padding-right: 10px;
+    line-height: 120px;
+}
+
+.button-number{
+    background-color: rgb(4, 4, 4);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px 0px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.button-higher{
+    background-color: rgb(4, 4, 4);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px 0px;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-additionl{
+    width: 100px;
+}
+
+#clear{
+    color: #ff7d7d;
+}
